@@ -26,10 +26,11 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<TaskList tasks = {tasks} />} />
+        <Route path = "/" element = {<TaskList tasks = {tasks} />} />
+        <Route path = "/task/:id" element = {<TaskDetails tasks = {tasks} />} />
       </Routes>
     </div>
   )
-}
+};
 
-export default App
+export default App;
