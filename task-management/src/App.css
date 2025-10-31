@@ -1,0 +1,31 @@
+.list-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.task-list {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 20px;
+    list-style: "📝";
+    padding-left: 10px;
+}
+
+a {
+    color: rgb(0, 115, 238);
+}
+
+a:visited {
+    color: rgb(87, 1, 87)
+}
+
+a:hover {
+    color:blue;
+}

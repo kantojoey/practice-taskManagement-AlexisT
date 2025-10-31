@@ -11,7 +11,7 @@ const TaskDetails = ({tasks}) => {
         return(
             <div>
                 <h2>Error: Task not found! Please try again,</h2>
-                <Link to = "/">Return to task list</Link>
+                <Link to = "/">↵ Return to task list</Link>
             </div>
         )
     };
@@ -20,7 +20,7 @@ const TaskDetails = ({tasks}) => {
         <div>
             <h2>Task: {task.title}</h2>
             <p>{task.description}</p>
-            <Link to = "/">Return to task list</Link>
+            <Link to = "/">↵ Return to task list</Link>
         </div>
     );
 };
